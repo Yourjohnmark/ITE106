@@ -4,7 +4,7 @@ import java.io.FileReader;
 
 public class TextFile01TextAnalyzer {
     public static void main(String[] args) {
-        File file = new File("JohnMarkcapistrano.txt");
+        File file = new File("JohnMarkCapistrano.txt");
 
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
